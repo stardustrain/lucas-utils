@@ -1,0 +1,24 @@
+{
+  "name": "@stardustrain/query-string",
+  "version": "0.0.1",
+  "author": "stardustrain <kthanterran@gmail.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/query-string.esm.js",
+  "files": ["dist"],
+  "repository": {
+    "directory": "packages/query-string",
+    "type": "git",
+    "url": "git+https://github.com/stardustrain/lucas-utils.git"
+  },
+  "scripts": {
+    "build": "tsdx build --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/ramda": "^0.27.44"
+  },
+  "dependencies": {
+    "ramda": "^0.27.1"
+  }
+}

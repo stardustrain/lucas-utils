@@ -1,0 +1,24 @@
+{
+  "name": "@stardustrain/date",
+  "version": "0.0.1",
+  "author": "stardustrain <kthanterran@gmail.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/date.esm.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "directory": "packages/date",
+    "type": "git",
+    "url": "git+https://github.com/stardustrain/lucas-utils.git"
+  },
+  "scripts": {
+    "build": "tsdx build --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "date-fns": "^2.23.0"
+  }
+}
