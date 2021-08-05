@@ -1,5 +1,13 @@
 # @stardustrain/utils
 
+## 0.0.4
+
+### Patch Changes
+
+- Updated dependencies [b630ada]
+- Updated dependencies [c75a80a]
+  - @stardustrain/date@0.1.0
+
 ## 0.0.3
 
 ### Patch Changes

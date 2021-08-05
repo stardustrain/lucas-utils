@@ -1,5 +1,12 @@
 # @stardustrain/date
 
+## 0.1.0
+
+### Minor Changes
+
+- b630ada: Fix Default format string
+- c75a80a: Add compareDay function
+
 ## 0.0.5
 
 ### Patch Changes
