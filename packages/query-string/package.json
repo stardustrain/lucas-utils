@@ -7,6 +7,9 @@
   "typings": "dist/index.d.ts",
   "module": "dist/query-string.esm.js",
   "files": ["dist"],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "directory": "packages/query-string",
     "type": "git",
