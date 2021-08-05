@@ -1,0 +1,24 @@
+{
+  "name": "@stardustrain/utils",
+  "version": "0.0.3",
+  "author": "stardustrain <kthanterran@gmail.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/utils.esm.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "directory": "packages/utils",
+    "type": "git",
+    "url": "git+https://github.com/stardustrain/lucas-utils.git"
+  },
+  "dependencies": {
+    "@stardustrain/date": "^0.0.4",
+    "@stardustrain/query-string": "^0.0.3"
+  }
+}
