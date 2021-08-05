@@ -17,6 +17,9 @@
     "type": "git",
     "url": "git+https://github.com/stardustrain/lucas-utils.git"
   },
+  "scripts": {
+    "build": "tsdx build --tsconfig ./tsconfig.json"
+  },
   "dependencies": {
     "@stardustrain/date": "^0.0.4",
     "@stardustrain/query-string": "^0.0.3"
