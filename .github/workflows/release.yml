@@ -36,3 +36,5 @@ jobs:
         uses: changesets/action@master
         with:
           publish: yarn release
+        env:
+          GITHUB_TOKEN: ${{ secrets.NPM_REGISTRY_TOKEN }}
