@@ -1,5 +1,5 @@
 ---
-"@stardustrain/date": major
+"@stardustrain/date": patch
 ---
 
 Fix DEFAULT_FORMAT
