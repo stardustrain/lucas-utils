@@ -1,5 +1,11 @@
 # @stardustrain/date
 
+## 0.0.5
+
+### Patch Changes
+
+- 81821fd: Add compare flag
+
 ## 0.0.4
 
 ### Patch Changes
