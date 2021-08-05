@@ -1,6 +1,6 @@
 {
   "name": "@stardustrain/utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "stardustrain <kthanterran@gmail.com>",
   "license": "MIT",
   "main": "dist/index.js",
