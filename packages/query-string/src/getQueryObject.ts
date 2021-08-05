@@ -1,6 +1,12 @@
 import { pipe, split, last, map, fromPairs } from 'ramda'
 import type { KeyValuePair } from 'ramda'
 
+type ValueFromQueryString = string | number | boolean
+const isValueFromQueryString = (x: any): x is ValueFromQueryString =>
+  typeof x === 'string' ||
+  typeof x === 'number' ||
+  typeof x === 'boolean'
+
 const parseValue = (value: string): ValueFromQueryString => {
   if (value.trim().length === 0) {
     return value
@@ -23,13 +29,9 @@ const isKeyValuePair = (
   Array.isArray(x) &&
   x.every(
     ([key, value]) =>
-      typeof key === 'string' &&
-      (typeof value === 'string' ||
-        typeof value === 'number' ||
-        typeof value === 'boolean'),
+      typeof key === 'string' && isValueFromQueryString(value),
   )
 
-type ValueFromQueryString = string | number | boolean
 export const getQueryObject = (
   url: string,
 ) =>
