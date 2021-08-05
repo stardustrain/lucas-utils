@@ -14,7 +14,7 @@
   "scripts": {
     "bootstrap": "yarn lerna:bootstrap",
     "lerna:bootstrap": "lerna bootstrap --use-workspaces",
-    "build": "lerna run build",
+    "build": "lerna run build --stream",
     "build:packages": "yarn build",
     "changeset": "changeset",
     "release": "changeset publish"
