@@ -2231,20 +2231,6 @@
   dependencies:
     type-detect "4.0.8"
 
-"@stardustrain/date@^0.0.4":
-  version "0.0.4"
-  resolved "https://npm.pkg.github.com/download/@stardustrain/date/0.0.4/eb5821f33a19e66f4e5922cc91295ef6ed09c1fb4df2e6c1fc924a18c8430ae8#d38b654e9e5933270a36f832f230dc439d5243a2"
-  integrity sha512-7bBdO1CmR89vgq4CsQ4RrGTrxTWuPloiIxKb7kRYfHcmPSWodo0gpxzioQcTDRsSOrumeOKTWrlN/aBtHXc9og==
-  dependencies:
-    date-fns "^2.23.0"
-
-"@stardustrain/query-string@^0.0.3":
-  version "0.0.3"
-  resolved "https://npm.pkg.github.com/download/@stardustrain/query-string/0.0.3/c0cd16c5f6849db71d4a126af92999e2b4baf54f0fa4d0e39a5b4afd7da464d5#b613bb269dd69269f9e15db82abf8620716952f6"
-  integrity sha512-2VLiopxAljCJ/huj+7jyrP9JWFZN8LX6mowJhJbGIPUQt6KBM03nMfO+1OuqArBpe5ddrWtF8n33+QUwHryhhQ==
-  dependencies:
-    ramda "^0.27.1"
-
 "@tootallnate/once@1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
