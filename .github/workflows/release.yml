@@ -26,7 +26,7 @@ jobs:
           GITHUB_REGISTRY_TOKEN: ${{ secrets.NPM_REGISTRY_TOKEN }}
 
       - name: Install Dependencies
-        run: yarn install --frozen-lockfile && yarn bootstrap
+        run: yarn boot
 
       - name: Build packages
         run: yarn build:packages

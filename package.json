@@ -12,6 +12,7 @@
     "packages/*"
   ],
   "scripts": {
+    "boot": "yarn --frozen-lockfile && yarn bootstrap",
     "bootstrap": "yarn lerna:bootstrap",
     "lerna:bootstrap": "lerna bootstrap --use-workspaces",
     "build": "lerna run build --stream",
