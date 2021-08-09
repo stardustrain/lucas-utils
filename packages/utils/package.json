@@ -1,6 +1,6 @@
 {
   "name": "@stardustrain/utils",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "stardustrain <kthanterran@gmail.com>",
   "license": "MIT",
   "main": "dist/index.js",
@@ -21,7 +21,7 @@
     "build": "tsdx build --tsconfig ./tsconfig.json"
   },
   "dependencies": {
-    "@stardustrain/date": "^0.1.0",
+    "@stardustrain/date": "^0.2.0",
     "@stardustrain/query-string": "^0.0.3"
   }
 }

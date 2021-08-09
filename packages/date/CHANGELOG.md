@@ -1,5 +1,11 @@
 # @stardustrain/date
 
+## 0.2.0
+
+### Minor Changes
+
+- cd9358b: Add compareYear function
+
 ## 0.1.0
 
 ### Minor Changes
